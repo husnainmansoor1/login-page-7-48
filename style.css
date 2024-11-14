@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+}
+
+
+.container{
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 450px;
+    padding: 60px 40px 60px 40px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    
+
+
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url('img.jpeg');
+    -webkit-background-clip: text;
+    color: #9e575700;
+    animation: swing 12s infinite ;
+
+}
+
+@keyframes swing {
+    from{
+        background-position: top 0
+                             left 0;
+    }
+    to{
+        background-position:left 2000px 
+                            top 10px;
+    }
+}
+form{
+    margin-top: 20px;
+}
+ul{
+    display: block;
+
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+label{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-image: url('img.jpeg');
+    -webkit-background-clip: text;
+    color: #9e575700;
+    animation: swing 12s infinite ;
+   
+}
+#user{
+    padding: 10px 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+#pass{
+    margin-top: 10px;
+    padding: 10px 60px;
+    border: 0px;
+    border-radius: 5px;
+
+}
+#submit{
+    margin-top: 40px;
+    padding: 12px 123px;
+    background-color: rgb(94, 223, 62);
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(61, 57, 57);
+    justify-content: left;
+}
+#submit:hover{
+    background-color: #149465;
+}
+
+
+/* index2 page */
+.container1{
+    font-size: 50px;
+    background-image: url('img.jpeg');
+    -webkit-background-clip: text;
+    color: #9e575700;
+    animation: swing 12s infinite ;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
